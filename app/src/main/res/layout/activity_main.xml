@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="221dp"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Jugador 2"
+        android:textColor="#FAFAFA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="405dp"
+        android:layout_marginEnd="145dp"
+        android:layout_marginRight="145dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Jugador 3"
+        android:textColor="#FAFAFA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jug1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="150dp"
+        android:layout_marginEnd="130dp"
+        android:layout_marginRight="130dp"
+        android:fontFamily="serif-monospace"
+        android:text="Esperando.."
+        android:textColor="#C1BEBE"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="114dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginRight="140dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Jugador 1"
+        android:textColor="#FAFAFA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jug3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="445dp"
+        android:layout_marginEnd="114dp"
+        android:layout_marginRight="114dp"
+        android:fontFamily="serif-monospace"
+        android:text="Esperando.."
+        android:textColor="#C1BEBE"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/marcador1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="189dp"
+        android:layout_marginEnd="186dp"
+        android:layout_marginRight="186dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="0"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/marcador3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="482dp"
+        android:layout_marginEnd="188dp"
+        android:layout_marginRight="188dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="0"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="223dp"
+        android:layout_marginEnd="242dp"
+        android:layout_marginRight="242dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Jugador 4"
+        android:textColor="#FAFAFA"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/marcador2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-29dp"
+        android:layout_marginEnd="149dp"
+        android:layout_marginRight="149dp"
+        app:srcCompat="@drawable/dado1" />
+
+    <ImageView
+        android:id="@+id/imageView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/marcador2"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-78dp"
+        android:layout_marginEnd="148dp"
+        android:layout_marginRight="148dp"
+        app:srcCompat="@drawable/dado1" />
+
+    <TextView
+        android:id="@+id/lblronda"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="144dp"
+        android:layout_marginLeft="144dp"
+        android:layout_marginTop="39dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:gravity="center|top"
+        android:text="RONDA: 1"
+        android:textColor="#FFFFFF"
+        android:textSize="26dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/jug2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="252dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginRight="3dp"
+        android:fontFamily="serif-monospace"
+        android:text="Esperando.."
+        android:textColor="#C1BEBE"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/jug4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="226dp"
+        android:layout_marginRight="226dp"
+        android:fontFamily="serif-monospace"
+        android:text="Esperando.."
+        android:textColor="#C1BEBE"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+    <TextView
+        android:id="@+id/marcador2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="291dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginRight="56dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="0"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/marcador4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="294dp"
+        android:layout_marginEnd="278dp"
+        android:layout_marginRight="278dp"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="0"
+        android:textColor="#FFEB3B"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="522dp"
+        android:layout_marginEnd="143dp"
+        android:layout_marginRight="143dp"
+        android:text="¡JUGAR!" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="42dp"
+        android:layout_marginLeft="42dp"
+        android:layout_marginTop="588dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:text="Creado por: Jorge de Jesús Pérez López"
+        android:textColor="#FADADA"
+        android:textSize="18sp"
+        android:textStyle="italic" />
+
+</RelativeLayout>
